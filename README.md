@@ -7,3 +7,5 @@ In this paper, we pose the following question: is it possible to attribute ChatG
 
 <p align="center">
     <img src="https://github.com/GPTattribution/ChatGPTAttribution/blob/main/authorship.pdf" alt="ChatGPT Code Autrhoship" width="70%" height="70%">
+    
+    
