@@ -13,3 +13,14 @@ In this paper, we pose the following question: is it possible to attribute ChatG
 
 <p align="center">
     <img src="https://github.com/GPTattribution/ChatGPTAttribution/blob/main/naive-1.png" alt="ChatGPT Code Autrhoship" width="70%" height="70%">
+
+
+
+**Feature-based Apporach:** Instead of the naive approach that jointly trains a model on ChatGPT and non-ChatGPT codes, our feature-based approach starts by training a model for code authorship attribution using non-ChatGPT codes only (e.g., 204 authors in the case of the preliminary results). We then use the inference function to infer a label of the ChatGPT codes. The labels inferred in this step will be associated with the original labels of the non-ChatGPT dataset (e.g., ``A1'' through ``A9''). Upon obtaining those (predicted labels), we group codes that have the same label into the same group and give it a unique identifier (e.g., where codes predicted in the inference step as ``A1'' are labeled as chatgpt_{1}, those predicted as ``A9'' are given the label chatgpt_{2}).
+
+<p align="center">
+    <img src="https://github.com/GPTattribution/ChatGPTAttribution/blob/main/ours-1.png" alt="ChatGPT Code Autrhoship" width="70%" height="70%">
+    
+    
+    
+    
