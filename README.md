@@ -26,7 +26,18 @@ In this paper, we pose the following question: is it possible to attribute ChatG
 ### ChatGPT stylistic analysis
 1. Data preparation
 - Unzip either [GCJ_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/data/ChatGPT/GCJ_2017_Test) or [GCJ_2018](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/data/ChatGPT/GCJ_2018_Test) test dataset and place them in [src/code-imitator-master/data/dataset_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/data/dataset_2017).
-2. Running code
+2. Random Forest classfier
+- Unzip [random_forest_204](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject/RF_204) and place it in [src/code-imitator-master/src/PyProject](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject)
+3. Running code
+- To conduct this experiment, we obtained code authorship source code from [Erwin et al's GitHub](https://github.com/EQuiw/code-imitator/tree/master).
+- Therefore, for detailed instructions, please read and follow [README.md](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/src/code-imitator-master/src/README.md) provided by Erwin et al.
+
+### Attribution Accuracy analysis
+1. Data preparation
+- Unzip either [ChatGPT_feature_based](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/data/ChatGPT/ChatGPT_feature_based.zip) or [ChatGPT_naive](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/data/ChatGPT/ChatGPT_naive.zip) dataset and place them in [src/code-imitator-master/data/dataset_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/data/dataset_2017).
+2. Random Forest classfier
+- Unzip either [random_forest_feature_based](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject/RF_210_feature_based) or [random_forest_naive](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject/RF_210_naive) and place it in [src/code-imitator-master/src/PyProject](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject)
+3. Running code
 - To conduct this experiment, we obtained code authorship source code from [Erwin et al's GitHub](https://github.com/EQuiw/code-imitator/tree/master).
 - Therefore, for detailed instructions, please read and follow [README.md](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/src/code-imitator-master/src/README.md) provided by Erwin et al.
 
