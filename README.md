@@ -25,9 +25,9 @@ In this paper, we pose the following question: is it possible to attribute ChatG
 ## Running code:
 ### ChatGPT stylistic analysis
 1. Data preparation
--Unzip either [GCJ_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/data/ChatGPT/GCJ_2017_Test) or [GCJ_2018](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/data/ChatGPT/GCJ_2018_Test) test dataset and place them in [src/code-imitator-master/data/dataset_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/data/dataset_2017).
+- Unzip either [GCJ_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/data/ChatGPT/GCJ_2017_Test) or [GCJ_2018](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/data/ChatGPT/GCJ_2018_Test) test dataset and place them in [src/code-imitator-master/data/dataset_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/data/dataset_2017).
 2. Running code
--To conduct this experiment, we obtained code authorship source code from [Erwin et al's GitHub](https://github.com/EQuiw/code-imitator/tree/master).
+- To conduct this experiment, we obtained code authorship source code from [Erwin et al's GitHub](https://github.com/EQuiw/code-imitator/tree/master).
 -Therefore, for detailed instructions, please read and follow [README.md](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/src/code-imitator-master/src/README.md) provided by Erwin et al.
 
 
