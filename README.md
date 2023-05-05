@@ -40,7 +40,9 @@ In this paper, we pose the following question: is it possible to attribute ChatG
 1. Data preparation
 - Unzip either [ChatGPT_feature_based](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/data/ChatGPT/ChatGPT_feature_based.zip) or [ChatGPT_naive](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/data/ChatGPT/ChatGPT_naive.zip) dataset and place them in [src/code-imitator-master/data/dataset_2017](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/data/dataset_2017).
 - Run [extractfeatures_single.sh](https://github.com/GPTattribution/ChatGPTAttribution/blob/main/src/code-imitator-master/data/extractfeatures_single.sh) in src/code-imitator-master/data/
+
         bash extractfeatures_single.sh
+        
 2. Random Forest classfier
 - Unzip either [random_forest_feature_based](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject/RF_210_feature_based) or [random_forest_naive](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject/RF_210_naive) and place it in [src/code-imitator-master/src/PyProject](https://github.com/GPTattribution/ChatGPTAttribution/tree/main/src/code-imitator-master/src/PyProject)
 3. Running code
