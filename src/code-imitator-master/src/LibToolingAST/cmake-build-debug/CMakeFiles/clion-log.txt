@@ -1,0 +1,6 @@
+/home/seal12/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/seal12/Downloads/code-imitator-master/src/LibToolingAST
+CMake Error at CMakeLists.txt:6 (MESSAGE):
+  Clang root directory not set (use -DMY_CLANG_ROOT_DIR)
+
+
+-- Configuring incomplete, errors occurred!

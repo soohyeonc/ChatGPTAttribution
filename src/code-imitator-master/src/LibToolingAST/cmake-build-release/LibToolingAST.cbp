@@ -1,0 +1,2319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LibToolingAST"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\feature_extraction\;CMake Files\feature_extraction_single\;CMake Files\transformers\;CMake Files\transformers\lib\;CMake Files\transformers\return-transform\;CMake Files\transformers\include-add\;CMake Files\transformers\include-sort\;CMake Files\transformers\naming-transformers\;CMake Files\transformers\typedef-transform\;CMake Files\transformers\IOTransformers\;CMake Files\transformers\unused-stuff\;CMake Files\tests\;CMake Files\codeinfo\;CMake Files\codeinfo\include-list\;CMake Files\codeinfo\unused-functions-list\;CMake Files\codeinfo\decl-names-list\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_lexems_features">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/get_lexems_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 get_lexems_features"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_lexems_features/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/get_lexems_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 get_lexems_features/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="feature_extraction_single">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/feature_extraction_single" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 feature_extraction_single"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="feature_extraction_single/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/feature_extraction_single" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 feature_extraction_single/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/feature_extraction_single/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init_decl_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/init_decl_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 init_decl_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="init_decl_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/init_decl_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 init_decl_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compoundstmt_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/compoundstmt_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 compoundstmt_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compoundstmt_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/compoundstmt_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 compoundstmt_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="for_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/for_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 for_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="for_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/for_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 for_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="while_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/while_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 while_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="while_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/while_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 while_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datastructure_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/datastructure_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 datastructure_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datastructure_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/datastructure_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 datastructure_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/if_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 if_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/if_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 if_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fctcreator_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/fctcreator_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 fctcreator_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fctcreator_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/fctcreator_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 fctcreator_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="return_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/return_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 return_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="return_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/return_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/../include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 return_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/return-transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="includeadd_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/includeadd_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 includeadd_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="includeadd_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/includeadd_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 includeadd_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-add/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="includesort_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/includesort_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 includesort_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="includesort_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/includesort_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 includesort_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/include-sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_const_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/global_const_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 global_const_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_const_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/global_const_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 global_const_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="declname_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/declname_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 declname_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="declname_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/declname_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 declname_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/naming-transformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="typedef_sideinfo_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/typedef_sideinfo_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 typedef_sideinfo_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="typedef_sideinfo_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/typedef_sideinfo_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 typedef_sideinfo_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="typedef_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/typedef_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 typedef_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="typedef_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/typedef_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 typedef_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/typedef-transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sync_with_stdio_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/sync_with_stdio_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 sync_with_stdio_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sync_with_stdio_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/sync_with_stdio_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 sync_with_stdio_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input_cplusplusstyle_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/input_cplusplusstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 input_cplusplusstyle_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input_cplusplusstyle_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/input_cplusplusstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 input_cplusplusstyle_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifostream_preprocessor">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/ifostream_preprocessor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 ifostream_preprocessor"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifostream_preprocessor/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/ifostream_preprocessor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 ifostream_preprocessor/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="output_cstyle_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/output_cstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 output_cstyle_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="output_cstyle_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/output_cstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 output_cstyle_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="output_cplusplusstyle_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/output_cplusplusstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 output_cplusplusstyle_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="output_cplusplusstyle_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/output_cplusplusstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 output_cplusplusstyle_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input_cstyle_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/input_cstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 input_cstyle_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input_cstyle_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/input_cstyle_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 input_cstyle_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/IOTransformers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_declarations_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_declarations_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_declarations_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_declarations_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_declarations_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_declarations_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_typedefs_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_typedefs_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_typedefs_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_typedefs_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_typedefs_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_typedefs_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_functions_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_functions_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_functions_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_functions_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_functions_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_functions_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_records_transformer">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_records_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_records_transformer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused_records_transformer/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/unused_records_transformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 unused_records_transformer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/transformers/unused-stuff/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_lexical_features">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_lexical_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_lexical_features"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_lexical_features/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_lexical_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_lexical_features/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_code_in-ast_leaves">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_code_in-ast_leaves" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_code_in-ast_leaves"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_code_in-ast_leaves/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_code_in-ast_leaves" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_code_in-ast_leaves/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_ast_node_types">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_ast_node_types" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_ast_node_types"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_ast_node_types/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_ast_node_types" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_ast_node_types/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_ast_node_bigrams">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_ast_node_bigrams" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_ast_node_bigrams"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_get_ast_node_bigrams/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/test_get_ast_node_bigrams" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 test_get_ast_node_bigrams/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="include-list">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/include-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 include-list"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="include-list/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/include-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 include-list/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/include-list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused-functions-list">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/unused-functions-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 unused-functions-list"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unused-functions-list/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/unused-functions-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 unused-functions-list/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/unused-functions-list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decl-names-list">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/decl-names-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 decl-names-list"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decl-names-list/fast">
+				<Option output="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/decl-names-list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction"/>
+					<Add directory="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/include"/>
+					<Add directory="/home/seal12/Downloads/boost_1_65_1"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/lib/clang/5.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 decl-names-list/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release/codeinfo/decl-names-list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils.cpp">
+			<Option target="get_lexems_features"/>
+			<Option target="feature_extraction_single"/>
+			<Option target="init_decl_transformer"/>
+			<Option target="compoundstmt_transformer"/>
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="if_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="global_const_transformer"/>
+			<Option target="typedef_sideinfo_transformer"/>
+			<Option target="typedef_transformer"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="test_get_lexical_features"/>
+			<Option target="test_get_code_in-ast_leaves"/>
+			<Option target="test_get_ast_node_types"/>
+			<Option target="test_get_ast_node_bigrams"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils.h">
+			<Option target="get_lexems_features"/>
+			<Option target="feature_extraction_single"/>
+			<Option target="init_decl_transformer"/>
+			<Option target="compoundstmt_transformer"/>
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="if_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="global_const_transformer"/>
+			<Option target="typedef_sideinfo_transformer"/>
+			<Option target="typedef_transformer"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="test_get_lexical_features"/>
+			<Option target="test_get_code_in-ast_leaves"/>
+			<Option target="test_get_ast_node_types"/>
+			<Option target="test_get_ast_node_bigrams"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils2.cpp">
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_records_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils2.h">
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_records_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils_Declarations.cpp">
+			<Option target="init_decl_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils_Declarations.h">
+			<Option target="init_decl_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils_Features.cpp">
+			<Option target="get_lexems_features"/>
+			<Option target="feature_extraction_single"/>
+			<Option target="test_get_code_in-ast_leaves"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/Utilities/Utils_Features.h">
+			<Option target="get_lexems_features"/>
+			<Option target="feature_extraction_single"/>
+			<Option target="test_get_code_in-ast_leaves"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/decl-names-list/DeclNamesList.cpp">
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/include-list/IncludeList.cpp">
+			<Option target="include-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/include-list/IncludeList.h">
+			<Option target="include-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/unused-functions-list/ListUnusedFunctions.cpp">
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/unused-functions-list/unused_functions_utils.cpp">
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/unused-functions-list/unused_functions_utils.h">
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction/lexems_features.cpp">
+			<Option target="get_lexems_features"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction_single/extract_all_features.cpp">
+			<Option target="feature_extraction_single"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/catch.hpp">
+			<Option target="test_get_lexical_features"/>
+			<Option target="test_get_code_in-ast_leaves"/>
+			<Option target="test_get_ast_node_types"/>
+			<Option target="test_get_ast_node_bigrams"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/test_get_ast_node_bigram.cpp">
+			<Option target="test_get_ast_node_bigrams"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/test_get_ast_node_types.cpp">
+			<Option target="test_get_ast_node_types"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/test_get_code_in_ast_leaves.cpp">
+			<Option target="test_get_code_in-ast_leaves"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/test_get_lexical_features.cpp">
+			<Option target="test_get_lexical_features"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/CDFGraphQueryHandler.cpp">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/CDFGraphQueryHandler.h">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/ControlFlowGraphCore.cpp">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/ControlFlowGraphCore.h">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/ControlFlowGraphWithDataFlow.cpp">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/ControlFlowGraphWithDataFlow.h">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/DFSVisitor.cpp">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/DFSVisitor.h">
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused-functions-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/DeclRefMapping/DeclRefMapping.cpp">
+			<Option target="init_decl_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/ControlDataFlow/DeclRefMapping/DeclRefMapping.h">
+			<Option target="init_decl_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/StreamRewriters/InterfaceFileRewriter.cpp">
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/StreamRewriters/InterfaceFileRewriter.h">
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/StreamRewriters/InterfaceStdinOutRewriter.cpp">
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/StreamRewriters/InterfaceStdinOutRewriter.h">
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/ifostream_preprocessor.cpp">
+			<Option target="ifostream_preprocessor"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/input_cplusplusstyle_transf.cpp">
+			<Option target="input_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/input_cstyle_transf.cpp">
+			<Option target="input_cstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/input_transformer.cpp">
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/io_transformer.cpp">
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/output_cplusplusstyle_transf.cpp">
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/output_cstyle_transf.cpp">
+			<Option target="output_cstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/output_transformer.cpp">
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/sync_with_stdio_transformer.cpp">
+			<Option target="sync_with_stdio_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/utils_io_transformers.cpp">
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/utils_io_transformers.h">
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/RenamingGuide.cpp">
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/RenamingGuide.h">
+			<Option target="fctcreator_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/compoundstmt_transf.cpp">
+			<Option target="compoundstmt_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/datastructure_transformer.cpp">
+			<Option target="datastructure_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/fctcreator_transformer.cpp">
+			<Option target="fctcreator_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/for_transformer.cpp">
+			<Option target="for_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/if_transformer.cpp">
+			<Option target="if_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-add/IncludeAdd.cpp">
+			<Option target="includeadd_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-add/IncludeAdd.h">
+			<Option target="includeadd_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-add/IncludeAddMain.cpp">
+			<Option target="includeadd_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-sort/IncludeSort.cpp">
+			<Option target="includesort_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-sort/IncludeSort.h">
+			<Option target="includesort_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-sort/IncludeSortMain.cpp">
+			<Option target="includesort_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/init_decl_transformer.cpp">
+			<Option target="init_decl_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/lib/SourceTextHelper.cpp">
+			<Option target="init_decl_transformer"/>
+			<Option target="compoundstmt_transformer"/>
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="return_transformer"/>
+			<Option target="global_const_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="typedef_sideinfo_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="unused-functions-list"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/naming-transformers/declname_transformer.cpp">
+			<Option target="declname_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/naming-transformers/global_const_transformer.cpp">
+			<Option target="global_const_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/AddReturn.cpp">
+			<Option target="return_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/AddReturn.h">
+			<Option target="return_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/ReplaceLiteral.cpp">
+			<Option target="return_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/ReplaceLiteral.h">
+			<Option target="return_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/ReturnStatementTransform.cpp">
+			<Option target="return_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/ReturnStatementTransform.h">
+			<Option target="return_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/typedef-transform/typedef_collector.cpp">
+			<Option target="typedef_sideinfo_transformer"/>
+			<Option target="typedef_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/typedef-transform/typedef_sideinfo_transformer.cpp">
+			<Option target="typedef_sideinfo_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/typedef-transform/typedef_transformer.cpp">
+			<Option target="typedef_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/unused-stuff/unused_declarations_transformer.cpp">
+			<Option target="unused_declarations_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/unused-stuff/unused_functions_transformer.cpp">
+			<Option target="unused_functions_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/unused-stuff/unused_records_transformer.cpp">
+			<Option target="unused_records_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/unused-stuff/unused_typedefs_transformer.cpp">
+			<Option target="unused_typedefs_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/utils_transform.cpp">
+			<Option target="init_decl_transformer"/>
+			<Option target="compoundstmt_transformer"/>
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="if_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="includesort_transformer"/>
+			<Option target="global_const_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="typedef_sideinfo_transformer"/>
+			<Option target="typedef_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="unused-functions-list"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/utils_transform.h">
+			<Option target="init_decl_transformer"/>
+			<Option target="compoundstmt_transformer"/>
+			<Option target="for_transformer"/>
+			<Option target="while_transformer"/>
+			<Option target="datastructure_transformer"/>
+			<Option target="if_transformer"/>
+			<Option target="fctcreator_transformer"/>
+			<Option target="includesort_transformer"/>
+			<Option target="global_const_transformer"/>
+			<Option target="declname_transformer"/>
+			<Option target="typedef_sideinfo_transformer"/>
+			<Option target="typedef_transformer"/>
+			<Option target="sync_with_stdio_transformer"/>
+			<Option target="input_cplusplusstyle_transformer"/>
+			<Option target="ifostream_preprocessor"/>
+			<Option target="output_cstyle_transformer"/>
+			<Option target="output_cplusplusstyle_transformer"/>
+			<Option target="input_cstyle_transformer"/>
+			<Option target="unused_declarations_transformer"/>
+			<Option target="unused_typedefs_transformer"/>
+			<Option target="unused_functions_transformer"/>
+			<Option target="unused_records_transformer"/>
+			<Option target="unused-functions-list"/>
+			<Option target="decl-names-list"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/while_transformer.cpp">
+			<Option target="while_transformer"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\feature_extraction\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/feature_extraction_single/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\feature_extraction_single\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\lib\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/return-transform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\return-transform\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-add/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\include-add\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/include-sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\include-sort\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/naming-transformers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\naming-transformers\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/typedef-transform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\typedef-transform\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/IOTransformers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\IOTransformers\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/transformers/unused-stuff/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transformers\unused-stuff\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\codeinfo\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/include-list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\codeinfo\include-list\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/unused-functions-list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\codeinfo\unused-functions-list\"/>
+		</Unit>
+		<Unit filename="/home/seal12/Downloads/code-imitator-master/src/LibToolingAST/codeinfo/decl-names-list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\codeinfo\decl-names-list\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

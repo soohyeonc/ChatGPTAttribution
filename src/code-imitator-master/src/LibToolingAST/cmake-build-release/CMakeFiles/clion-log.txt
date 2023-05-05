@@ -1,0 +1,16 @@
+/home/seal12/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DMY_CLANG_ROOT_DIR=/home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04 -DMY_BOOST_ROOT_DIR=/home/seal12/Downloads/boost_1_65_1 -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/seal12/Downloads/code-imitator-master/src/LibToolingAST
+-- The C compiler identification is Clang 5.0.0
+-- The CXX compiler identification is Clang 5.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/seal12/Downloads/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/seal12/Downloads/code-imitator-master/src/LibToolingAST/cmake-build-release
