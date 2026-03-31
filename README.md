@@ -11,7 +11,7 @@ AI assistants such as ChatGPT have remarkable capabilities for producing both na
 This work investigates whether off-the-shelf code authorship attribution techniques can attribute ChatGPT-generated code, and proposes a new feature-based approach when the answer turns out to be negative.
 
 <p align="center">
-  <img src="authorship-1.png" alt="Overview of ChatGPT Code Authorship Attribution" width="70%">
+  <img src="assets/authorship-1.png" alt="Overview of ChatGPT Code Authorship Attribution" width="70%">
 </p>
 
 ## Key Results
@@ -29,7 +29,7 @@ This work investigates whether off-the-shelf code authorship attribution techniq
 The naive approach jointly trains a model on both ChatGPT and non-ChatGPT code samples. For each user, ChatGPT is prompted in separate sessions to solve coding challenges, and the resulting samples are combined with human-authored code for attribution.
 
 <p align="center">
-  <img src="naive-1.png" alt="Naive Approach" width="70%">
+  <img src="assets/naive-1.png" alt="Naive Approach" width="70%">
 </p>
 
 ### Feature-Based Approach (Ours)
@@ -37,14 +37,18 @@ The naive approach jointly trains a model on both ChatGPT and non-ChatGPT code s
 Our approach trains a code authorship attribution model using **non-ChatGPT code only**, then uses the inference step to predict labels for ChatGPT-generated code. Codes receiving the same predicted label are grouped under a unified ChatGPT identifier. A jointly trained model is then built using both the original non-ChatGPT labels and the newly assigned ChatGPT group labels.
 
 <p align="center">
-  <img src="ours-1.png" alt="Feature-Based Approach" width="70%">
+  <img src="assets/ours-1.png" alt="Feature-Based Approach" width="70%">
 </p>
 
 ## Repository Structure
 
 ```
 ChatGPTAttribution/
-├── chatgpt_authorship.pdf          # Published paper
+├── assets/                         # Figures and paper PDF
+│   ├── authorship-1.png
+│   ├── naive-1.png
+│   ├── ours-1.png
+│   └── chatgpt_authorship.pdf
 ├── data/
 │   └── ChatGPT/
 │       ├── GCJ_2017_Test/          # Google Code Jam 2017 test dataset
