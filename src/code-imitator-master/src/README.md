@@ -1,40 +1,39 @@
-# Authorship Evasion
+# Source Code Attribution Pipeline
 
-## Overview
-Here, you find different README files that belong to the different steps
-of the project.
+This directory contains the source code for the authorship attribution and evasion pipeline, adapted from [code-imitator](https://github.com/EQuiw/code-imitator) by Erwin Quiring et al.
 
-## First Steps
+## Structure
 
-### Environment variables.
+| Directory | Description |
+|-----------|-------------|
+| [**LibToolingAST/**](LibToolingAST/) | Clang-based AST feature extraction and code transformers |
+| [**CodeStyloJava/**](CodeStyloJava/) | Java-based lexical and layout feature extraction (optional) |
+| [**PyProject/**](PyProject/) | Python project for classification, evaluation, and evasion |
+| [**ExternalTransformers/**](ExternalTransformers/) | Optional external tools (e.g., Include-What-You-Use) |
 
-  - [Optional] Add to .profile an environment variable to the position of the authorship evasion repo.
-    `export AUTHORSHIP_EVASION="PATH/TO/REPO/authorship-evasion/"`.
+## Setup
 
-### Set up projects.
+### 1. Environment Variables (Optional)
 
-The project consists of multiple smaller sub projects to have a modular structure.
-Each of the following directories has a own README file. Some projects
-are optional, such as the java project (which is necessary for some layout features,
-  which we not need necessarily).
+Add the following to your `.profile` or `.bashrc`:
 
-1. The LibTooling AST project:
-  - You will find a detailed README in the LibToolingAST directory. Please compile
-  everything, as we will the feature extractors and transformers for
-  code attribution and evasion, respectively.
-  - You find the [README here](./LibToolingAST/README.md)
+```bash
+export AUTHORSHIP_EVASION="PATH/TO/REPO/authorship-evasion/"
+```
 
-2. The Java Project [Optional]
-  - You find the [README here](./CodeStyloJava/README.md)
-  - is taken and adapted from Caliskan et al.
-  - The driver class is the main entry...
-  - the java-based features are already extracted for the full dataset, so you can read them,
-  - but if you want to read the java-based features for a new file, you must create the jar file and export the path...
+### 2. Build Sub-Projects
 
-3. The python project:
-  - You find the [README here](./PyProject/README.md)
+Each sub-project has its own README with detailed build instructions:
 
-4. ExternalTransformers [Optional]:
-- Here, we put some information how we can integrate stand-alone tools such as
- Include-What-You-Use.
- - You find the [README here](./ExternalTransformers/README.md)
+1. **LibToolingAST** (required) -- Compile the feature extractors and code transformers.
+   See [LibToolingAST/README.md](LibToolingAST/README.md).
+
+2. **CodeStyloJava** (optional) -- Java-based features for lexical and layout analysis.
+   See [CodeStyloJava/README.md](CodeStyloJava/README.md).
+   > Pre-extracted features for the full dataset are already included. Only needed if extracting features for new files.
+
+3. **PyProject** -- Python-based classification and evaluation.
+   See [PyProject/README.md](PyProject/README.md) (if available).
+
+4. **ExternalTransformers** (optional) -- Stand-alone tools for code rewriting.
+   See [ExternalTransformers/README.md](ExternalTransformers/README.md).

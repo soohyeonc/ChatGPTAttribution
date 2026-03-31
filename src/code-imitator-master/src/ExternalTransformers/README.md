@@ -1,50 +1,39 @@
 # External Transformers
 
-- Here, we put stand-alone tools that we can also use to rewrite code, e.g.
- we use Include-What-You-Use to detect what unused headers we can remove and
-what headers we should include.
+Optional stand-alone tools for code rewriting during evasion attacks. If environment variables are not set, the respective transformers are automatically skipped.
 
-Consider that each external transformer is optional, so if you don't set the environment
-variables, we will skip the respective transformer during evasion attack.
-In this way, you can quickly set up our project and do some transformations, and if necessary,
-add the helpful external transformers later.
+## Include-What-You-Use (IWYU)
 
-## Overview
+We use [IWYU](https://github.com/include-what-you-use/include-what-you-use) to detect unused headers and suggest missing includes.
 
-1. Include-What-You-Use
-- We use IWYU from the official website:
-https://github.com/include-what-you-use/include-what-you-use
-- A possible sequence of commands (works for Ubuntu) is:
-  ```
-  git clone https://github.com/include-what-you-use/include-what-you-use.git
-  cd include-what-you-use
-  git checkout clang_5.0
-  mkdir build
-  cd build
-  cmake -G "Unix Makefiles" -DIWYU_LLVM_ROOT_PATH=<path-to>/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04 ..
-  make
-  ```
-- Summary of steps:
-  - Make sure you checkout the branch that corresponds to clang 5.0.
-  - Please create the *build* directory inside of include-what-you-use
-  - Set the correct path to your clang directory for iwyu.
-- Add the full path of *include-what-you-use/build* to config.ini in PyProject.
+### Setup
 
-- Finally, make sure you have python2 installed. Otherwise, the bash script 
-src/ExternalTransformers/iwyu_replace.sh will not work. It is the only location
-where python 2 is somehow needed in our attribution+evasion project.
+```bash
+git clone https://github.com/include-what-you-use/include-what-you-use.git
+cd include-what-you-use
+git checkout clang_5.0
+mkdir build && cd build
+cmake -G "Unix Makefiles" -DIWYU_LLVM_ROOT_PATH=<path-to>/clang+llvm-5.0.0-linux-x86_64-ubuntu16.04 ..
+make
+```
 
-2. no other external transformers, yet
+**Requirements:**
+- Checkout the branch matching Clang 5.0
+- Create the `build/` directory inside the cloned repository
+- Python 2 must be installed (needed by `src/ExternalTransformers/iwyu_replace.sh`)
 
+After building, add the full path of `include-what-you-use/build/` to `config.ini` in PyProject.
 
-## Problems
-In case of problems with IWYU, you may need to install
-- libncurses5-dev
+### Troubleshooting
 
+If you encounter build issues, install:
+```bash
+sudo apt-get install libncurses5-dev
+```
 
-## How to add your own external transformer
-In short:
-- modify csv in this directory
-- create own Python class that inherits from TransformerBase
-- add code to `__load_external_transformers` in TransformerHandler
-- add path to dir of executable to config.ini and Configuration.py
+## Adding Custom Transformers
+
+1. Add an entry to the CSV file in this directory
+2. Create a Python class that inherits from `TransformerBase`
+3. Register it in `__load_external_transformers` in `TransformerHandler`
+4. Add the executable path to `config.ini` and `Configuration.py`
